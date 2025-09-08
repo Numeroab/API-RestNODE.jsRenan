@@ -1,0 +1,40 @@
+.aluno-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.aluno-info h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.aluno-actions {
+    margin-top: 10px;
+}
+
+.aluno-actions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.aluno-actions button:first-child {
+    background: #4CAF50;
+    color: white;
+}
+
+.aluno-actions button:last-child {
+    background: #f44336;
+    color: white;
+}
+
+.no-data {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
