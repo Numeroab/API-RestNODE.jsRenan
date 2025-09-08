@@ -14,7 +14,7 @@ const database = {
           ...doc.data()
         });
       });
-      a
+      
       return alunos;
     } catch (error) {
       console.error('Erro ao buscar alunos:', error);
